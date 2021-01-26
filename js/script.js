@@ -41,8 +41,6 @@ const filterContainer = document.querySelector(".portafolio-filter"),
 
 
 //portafolio lightbox
-
-
 const lightbox = document.querySelector(".lightbox"),
       lightboxImg = lightbox.querySelector(".lightbox-img"),
       lightboxClose = lightbox.querySelector(".lightbox-close"),
@@ -90,23 +88,20 @@ function changeItem(){
 
 
 //close lightbox
-
-
+/*
 lightbox.addEventListener("click", function(event){
     if(event.target === lightboxClose || event.target === lightbox){
         toggleLightbox();
     }
    
 })
-
+*/
 
 lightboxClose.addEventListener("click", function(){
     toggleLightbox();
 })
 
 // Aside Navbar
-
-
 const nav = document.querySelector(".nav"),
         navList = nav.querySelectorAll("li"),
         totalNavList = navList.length,
